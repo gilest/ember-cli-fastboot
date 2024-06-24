@@ -1,5 +1,75 @@
 # Changelog
 
+## Release (2024-06-24)
+
+ember-cli-fastboot 5.0.0 (major)
+fastboot 4.2.0 (minor)
+fastboot-app-server 4.1.5 (patch)
+foo 0.0.1 (patch)
+
+#### :boom: Breaking Change
+* `ember-cli-fastboot`
+  * [#904](https://github.com/ember-fastboot/ember-cli-fastboot/pull/904) Remove deprecated implicit-injections ([@mikrostew](https://github.com/mikrostew))
+  * [#902](https://github.com/ember-fastboot/ember-cli-fastboot/pull/902) Update CI and drop support for Node 12 ([@mikrostew](https://github.com/mikrostew))
+
+#### :rocket: Enhancement
+* `fastboot`
+  * [#896](https://github.com/ember-fastboot/ember-cli-fastboot/pull/896) feat: adds a environment variable to opt out of source maps ([@gabrielcsapo](https://github.com/gabrielcsapo))
+  * [#903](https://github.com/ember-fastboot/ember-cli-fastboot/pull/903) fix: Provide a more meaningful error when whitelist entry is missing ([@runspired](https://github.com/runspired))
+
+#### :bug: Bug Fix
+* `fastboot`
+  * [#949](https://github.com/ember-fastboot/ember-cli-fastboot/pull/949) Update url for fastboot-express-middleware in package.json for npm ([@SergeAstapov](https://github.com/SergeAstapov))
+  * [#946](https://github.com/ember-fastboot/ember-cli-fastboot/pull/946) Update url for fastboot-app-server in package.json for npm ([@SergeAstapov](https://github.com/SergeAstapov))
+  * [#905](https://github.com/ember-fastboot/ember-cli-fastboot/pull/905) remove deprecated implicit injection ([@amiarSlimane](https://github.com/amiarSlimane))
+* `ember-cli-fastboot`
+  * [#943](https://github.com/ember-fastboot/ember-cli-fastboot/pull/943) fix ember-source peer declaration ([@mansona](https://github.com/mansona))
+  * [#939](https://github.com/ember-fastboot/ember-cli-fastboot/pull/939) Fix embroider-optimised ([@mansona](https://github.com/mansona))
+  * [#929](https://github.com/ember-fastboot/ember-cli-fastboot/pull/929) fix json stringify in fastboot-config ([@mansona](https://github.com/mansona))
+
+#### :memo: Documentation
+* Other
+  * [#912](https://github.com/ember-fastboot/ember-cli-fastboot/pull/912) Update readme examples to use native class syntax ([@SergeAstapov](https://github.com/SergeAstapov))
+* `fastboot`
+  * [#906](https://github.com/ember-fastboot/ember-cli-fastboot/pull/906) chore: updates correct name for variable maxSandboxQueue -> maxSandboxQueueSize ([@gabrielcsapo](https://github.com/gabrielcsapo))
+
+#### :house: Internal
+* `ember-cli-fastboot`, `fastboot`
+  * [#947](https://github.com/ember-fastboot/ember-cli-fastboot/pull/947) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#945](https://github.com/ember-fastboot/ember-cli-fastboot/pull/945) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+  * [#940](https://github.com/ember-fastboot/ember-cli-fastboot/pull/940) Prepare Release ([@github-actions[bot]](https://github.com/apps/github-actions))
+* `fastboot`, `custom-fastboot-app`, `ember-cli-fastboot-testing-app`
+  * [#944](https://github.com/ember-fastboot/ember-cli-fastboot/pull/944) always use workspace deps ([@mansona](https://github.com/mansona))
+* `fastboot-test-scenarios`
+  * [#942](https://github.com/ember-fastboot/ember-cli-fastboot/pull/942) mark fastboot-test-scenarios as private ([@mansona](https://github.com/mansona))
+* `fastboot`
+  * [#941](https://github.com/ember-fastboot/ember-cli-fastboot/pull/941) add names to private tests packages ([@mansona](https://github.com/mansona))
+* Other
+  * [#937](https://github.com/ember-fastboot/ember-cli-fastboot/pull/937) start using release-plan ([@mansona](https://github.com/mansona))
+  * [#932](https://github.com/ember-fastboot/ember-cli-fastboot/pull/932) update CI action versions ([@mansona](https://github.com/mansona))
+  * [#931](https://github.com/ember-fastboot/ember-cli-fastboot/pull/931) update release-it ([@mansona](https://github.com/mansona))
+* `ember-cli-fastboot`
+  * [#935](https://github.com/ember-fastboot/ember-cli-fastboot/pull/935) update to Ember 5.8 using ember-cli-update ([@mansona](https://github.com/mansona))
+* `ember-cli-fastboot`, `ember-cli-fastboot-testing-app`, `example-addon`
+  * [#934](https://github.com/ember-fastboot/ember-cli-fastboot/pull/934) Update ember-cli-fastboot to 4.12 with ember-cli-update ([@mansona](https://github.com/mansona))
+* `ember-cli-fastboot`, `fastboot`, `classic-app-template`, `custom-fastboot-app`, `ember-cli-fastboot-testing-app`, `fastboot-test-scenarios`
+  * [#919](https://github.com/ember-fastboot/ember-cli-fastboot/pull/919) Move some failing tests from pre-built fixtures to scenario-tester ([@mansona](https://github.com/mansona))
+* `custom-fastboot-app`
+  * [#926](https://github.com/ember-fastboot/ember-cli-fastboot/pull/926) make sure that we lint (relevant) test-packages ([@mansona](https://github.com/mansona))
+* `ember-cli-fastboot`, `fastboot`, `example-addon`
+  * [#920](https://github.com/ember-fastboot/ember-cli-fastboot/pull/920) Add Linting to CI ([@mansona](https://github.com/mansona))
+* `ember-cli-fastboot`, `fastboot`, `example-addon`, `foo`
+  * [#917](https://github.com/ember-fastboot/ember-cli-fastboot/pull/917) move to pnpm ([@mansona](https://github.com/mansona))
+
+#### Committers: 7
+- Chris Manson ([@mansona](https://github.com/mansona))
+- Chris Thoburn ([@runspired](https://github.com/runspired))
+- Gabriel Csapo ([@gabrielcsapo](https://github.com/gabrielcsapo))
+- Michael Stewart ([@mikrostew](https://github.com/mikrostew))
+- Sergey Astapov ([@SergeAstapov](https://github.com/SergeAstapov))
+- Slimane Amiar ([@amiarSlimane](https://github.com/amiarSlimane))
+- [@github-actions[bot]](https://github.com/apps/github-actions)
+
 ## Release (2024-05-21)
 
 ember-cli-fastboot 4.1.5 (patch)
